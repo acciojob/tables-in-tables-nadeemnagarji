@@ -3,8 +3,9 @@
 table {
 /*             border-collapse: collapse; */
             width: 100%;
-	         border: 1px solid #000;
+	         border: 0.5px solid #000;
         }
+
  table td {
             width: 50%; /* Set each column to 50% width */
         }
@@ -17,14 +18,7 @@ table {
 
         
 
-        .nested-table {
-            width: 100%;
-            background-color: #fff;
-        }
-
-        .nested-table th {
-            background-color: #ccc;
-        }
+       
 
         .black-cell {
             background-color: #000;
@@ -32,9 +26,12 @@ table {
         }
 
         ul {
-            list-style-type: none;
+            
         }
 #bg{
 		background-color:black;
 		color:white;
+}
+.nested{
+ width:100%
 }
